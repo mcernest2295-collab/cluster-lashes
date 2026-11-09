@@ -110,3 +110,53 @@ footer p{color:#a99ca3;font-size:12px;margin-top:8px}
 .work-gallery figcaption{padding:16px 18px;font-weight:700;color:var(--ink);letter-spacing:.4px}
 .gallery-cta{text-align:center;margin-top:38px}
 .gallery-cta p{color:var(--muted);margin-bottom:16px}
+/* BOOKING DETAILS */
+
+.booking-details {
+  margin-top: 20px;
+}
+
+.booking-details label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.booking-details input,
+.booking-details select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #e5b8c9;
+  border-radius: 8px;
+  font-size: 15px;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+#bookingSummary {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.booking-confirmation {
+  display: none;
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #e8f8ee;
+  color: #217a43;
+  border: 1px solid #b7e4c7;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.booking-confirmation.show {
+  display: block;
+}
+
+.booking-confirmation.error {
+  background-color: #fff0f0;
+  color: #b42318;
+  border-color: #f5b5b5;
+}
